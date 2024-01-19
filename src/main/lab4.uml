@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/prog_lab4/src/main/java</OriginalElement>
+  <nodes>
+    <node x="-362.4115408284023" y="470.7118343195267">Main</node>
+    <node x="-159.0" y="449.5">abstract_classes.Entity</node>
+    <node x="80.0" y="685.5">classes.Alive</node>
+    <node x="-362.4115408284023" y="725.6745136094673">classes.Inanimate</node>
+    <node x="100.99526627218927" y="241.33431952662716">enums.Details</node>
+    <node x="133.20946745562128" y="449.5">exceptions.NameException</node>
+    <node x="115.0" y="567.0497041420117">exceptions.WrongTypeArgumentsException</node>
+    <node x="-362.4115408284023" y="348.0">Tale</node>
+    <node x="-145.5" y="205.5">interfaces.NameInterface</node>
+    <node x="115.0" y="516.9171597633135">exceptions.ToManyArgumentsException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="classes.Alive" target="abstract_classes.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-152.5" />
+      <point x="242.0" y="658.0" />
+      <point x="-58.0" y="658.0" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="classes.Inanimate" target="abstract_classes.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-80.5" />
+      <point x="-265.4115408284023" y="658.0" />
+      <point x="-58.0" y="658.0" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="abstract_classes.Entity" target="interfaces.NameInterface" relationship="REALIZATION">
+      <point x="0.0" y="-68.5" />
+      <point x="0.0" y="32.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7367127496159754" showDependencies="false" x="227.86801501251045" y="595.5365929941618" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
